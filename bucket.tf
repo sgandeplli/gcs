@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name     = "terrabucket1"
+  name     = "terrabucket1_jenkins"
   location = "US"
 
   versioning {
